@@ -26,6 +26,7 @@ font-family:'Times New Roman', Times, serif sans-serif;
 .logo {
   width: 200px;
   height: auto;
+  border-radius: 50%;
 }
 
 nav a {
