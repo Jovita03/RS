@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-  width: 120px;
+  width: 180px;
   height: auto;
   border-radius: 50%;
 }
@@ -44,7 +44,7 @@ nav {
 
 nav a {
   margin: 0 1rem;
-  color: #ffc107;
+  color: #e4decc;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease;
@@ -148,7 +148,7 @@ form button:hover {
 
 .mapa {
   margin-top: 2rem;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
   max-width: 100%;
 }
