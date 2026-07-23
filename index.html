@@ -3,32 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Rigo Suarez - Taller de Suspensiones en Zapopan. Expertos en amortiguadores, frenos, balanceo y alineación. Servicio rápido y profesional." />
+  <meta name="description" content="Taller Rigo Suarez en Zapopan, Jal. Especialistas en suspensiones, amortiguadores, frenos y alineación. Diagnóstico honesto y servicio profesional." />
   <meta name="theme-color" content="#0d0f12" />
-  <title>Rigo Suarez | Taller de Suspensiones</title>
+  <title>Rigo Suarez | Taller Especializado en Suspensiones en Zapopan</title>
+  
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
 
-  <!-- Barra superior -->
+
   <div class="topbar">
     <div class="container topbar-inner">
       <span class="topbar-item">Lun - Sáb · 9:00 a 19:00</span>
       <div class="topbar-contacts">
         <a href="tel:+523323501623" class="topbar-item">33 2350 1623</a>
-        <span class="dot">•</span>
+        <span class="dot" aria-hidden="true">•</span>
         <a href="mailto:taller.suspensiones@gmail.com" class="topbar-item">taller.suspensiones@gmail.com</a>
       </div>
     </div>
   </div>
 
-  <!-- Header / Navegación -->
+
   <header class="site-header" id="header">
     <div class="container header-inner">
-      <a href="#inicio" class="brand">
+      <a href="#inicio" class="brand" aria-label="Rigo Suarez - Taller de Suspensiones Inicio">
         <span class="brand-mark" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 2v4"/><path d="M12 18v4"/><circle cx="12" cy="12" r="3"/>
@@ -49,87 +52,99 @@
         <a href="#contacto" class="nav-cta">Cotizar</a>
       </nav>
 
-      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
   </header>
 
   <main>
-    <!-- Hero -->
+
     <section id="inicio" class="hero">
       <div class="hero-bg" style="background-image:url('/images/hero.png')" aria-hidden="true"></div>
       <div class="hero-overlay" aria-hidden="true"></div>
       <div class="container hero-content">
         <span class="eyebrow">Mecánica especializada · Zapopan, Jalisco</span>
         <h1>Tu auto firme en el camino, <span>sin vibraciones ni sustos</span></h1>
-        <p>Expertos en suspensiones, frenos y alineación. Diagnóstico honesto, refacciones de calidad y servicio rápido para que manejes con total confianza.</p>
+        <p>Expertos en suspensiones, frenos y alineación. Diagnóstico honesto, refacciones de alta calidad y servicio rápido para tu total seguridad.</p>
+        
         <div class="hero-actions">
           <a href="#contacto" class="btn btn-primary">Agenda tu servicio</a>
           <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
         </div>
+
         <div class="hero-stats">
-          <div><strong>+15</strong><span>años de experiencia</span></div>
-          <div><strong>+5,000</strong><span>autos atendidos</span></div>
-          <div><strong>100%</strong><span>diagnóstico honesto</span></div>
+          <div><strong>+15</strong><span>Años de experiencia</span></div>
+          <div><strong>+5,000</strong><span>Autos atendidos</span></div>
+          <div><strong>100%</strong><span>Diagnóstico honesto</span></div>
         </div>
       </div>
     </section>
 
-    <!-- Servicios -->
+
     <section id="servicios" class="section">
       <div class="container">
         <div class="section-head">
           <span class="eyebrow">Lo que hacemos</span>
           <h2>Servicios del taller</h2>
-          <p>Atendemos todo lo relacionado con la suspensión y seguridad de tu vehículo.</p>
+          <p>Mantenimiento especializado para garantizar la estabilidad y frenado de tu vehículo.</p>
         </div>
 
         <div class="servicios-grid">
           <article class="servicio">
-            <div class="servicio-img"><img src="/images/amortiguadores.png" alt="Cambio de amortiguadores" loading="lazy" /></div>
+            <div class="servicio-img">
+              <img src="/images/amortiguadores.webp"alt="Instalación de amortiguadores nuevos" width="400" height="260" loading="lazy" />
+            </div>
             <div class="servicio-body">
               <h3>Amortiguadores</h3>
-              <p>Cambio e instalación de amortiguadores de alta calidad para una conducción suave y estable.</p>
+              <p>Cambio e instalación de amortiguadores de alta resistencia para una conducción suave y segura.</p>
             </div>
           </article>
 
           <article class="servicio">
-            <div class="servicio-img"><img src="/images/suspension.png" alt="Reparación de suspensión" loading="lazy" /></div>
+            <div class="servicio-img">
+              <img src="/images/suspension.png" alt="Reparación de componentes de suspensión" width="400" height="260" loading="lazy" />
+            </div>
             <div class="servicio-body">
               <h3>Suspensión completa</h3>
-              <p>Revisión y reparación de horquillas, rótulas, bujes y todo el sistema de suspensión.</p>
+              <p>Revisión y reemplazo de horquillas, rótulas, bujes, terminales y bieletas.</p>
             </div>
           </article>
 
           <article class="servicio">
-            <div class="servicio-img"><img src="/images/balanceo.png" alt="Balanceo y alineación" loading="lazy" /></div>
+            <div class="servicio-img">
+              <img src="/images/balanceo.png" alt="Alineación y balanceo de llantas" width="400" height="260" loading="lazy" />
+            </div>
             <div class="servicio-body">
               <h3>Balanceo y alineación</h3>
-              <p>Alineación computarizada y balanceo profesional para un desgaste parejo de tus llantas.</p>
+              <p>Alineación computarizada y balanceo para prevenir el desgaste irregular de los neumáticos.</p>
             </div>
           </article>
 
           <article class="servicio">
-            <div class="servicio-img"><img src="/images/frenos.png" alt="Revisión de frenos" loading="lazy" /></div>
+            <div class="servicio-img">
+              <img src="/images/frenos.png" alt="Revisión del sistema de frenos y balatas" width="400" height="260" loading="lazy" />
+            </div>
             <div class="servicio-body">
               <h3>Sistema de frenos</h3>
-              <p>Revisión, cambio de balatas, discos y rectificación para frenar con total seguridad.</p>
+              <p>Reemplazo de balatas, rectificación de discos/tambores y purgado del sistema.</p>
             </div>
           </article>
 
           <article class="servicio">
-            <div class="servicio-img"><img src="/images/diagnostico.png" alt="Diagnóstico vehicular" loading="lazy" /></div>
+            <div class="servicio-img">
+              <img src="/images/diagnostico.png" alt="Diagnóstico del chasis y suspensión" width="400" height="260" loading="lazy" />
+            </div>
             <div class="servicio-body">
-              <h3>Diagnóstico</h3>
-              <p>Detectamos ruidos, vibraciones y fallas con un diagnóstico claro antes de cualquier reparación.</p>
+              <h3>Diagnóstico de ruidos</h3>
+              <p>Detectamos ruidos y vibraciones mediante inspección física detallada antes de intervenir.</p>
             </div>
           </article>
 
           <article class="servicio servicio-cta">
             <div class="servicio-body">
-              <h3>¿No sabes qué necesita tu auto?</h3>
-              <p>Llévalo y lo revisamos sin compromiso. Te explicamos qué falla y cuánto cuesta.</p>
+              <h3>¿Dudas con tu auto?</h3>
+              <p>Tráelo al taller para una revisión sin compromiso. Te damos la valoración exacta y su costo.</p>
               <a href="#contacto" class="btn btn-primary btn-sm">Solicitar revisión</a>
             </div>
           </article>
@@ -137,105 +152,116 @@
       </div>
     </section>
 
-    <!-- Nosotros -->
+
     <section id="nosotros" class="section section-alt">
       <div class="container nosotros">
         <div class="nosotros-media">
-          <img src="/images/hero.png" alt="Interior del taller de suspensiones" loading="lazy" />
+          <img src="/images/hero.png" alt="Instalaciones de Taller Rigo Suarez" width="600" height="400" loading="lazy" />
         </div>
         <div class="nosotros-text">
           <span class="eyebrow">Sobre nosotros</span>
           <h2>Un taller donde tu auto está en buenas manos</h2>
-          <p>En el Taller de Suspensiones Rigo Suarez combinamos experiencia, herramienta especializada y trato honesto. Sabemos lo importante que es tu vehículo, por eso trabajamos rápido y bien la primera vez.</p>
+          <p>En el Taller de Suspensiones Rigo Suarez combinamos experiencia práctica, herramienta especializada y trato claro. Garantizamos un trabajo profesional desde la primera visita.</p>
           <ul class="check-list">
-            <li>Diagnóstico claro antes de reparar</li>
-            <li>Refacciones de calidad garantizada</li>
-            <li>Precios justos y presupuesto por adelantado</li>
-            <li>Atención personalizada</li>
+            <li>Diagnóstico detallado previo a cualquier trabajo</li>
+            <li>Refacciones de marcas líderes con garantía</li>
+            <li>Presupuestos transparentes sin cargos ocultos</li>
+            <li>Atención directa y personalizada</li>
           </ul>
           <a href="#contacto" class="btn btn-primary">Contáctanos</a>
         </div>
       </div>
     </section>
 
-    <!-- Testimonios -->
+
     <section id="testimonios" class="section">
       <div class="container">
         <div class="section-head">
           <span class="eyebrow">Referencias</span>
-          <h2>Lo que dicen nuestros clientes</h2>
+          <h2>Lo que opinan nuestros clientes</h2>
         </div>
         <div class="testimonios-grid">
           <figure class="testimonio">
-            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
-            <blockquote>Excelente servicio, mi camioneta dejó de vibrar por completo. Muy recomendados.</blockquote>
-            <figcaption>— Jesenia Cortez</figcaption>
+            <div class="stars" aria-label="Calificación: 5 de 5 estrellas">★★★★★</div>
+            <blockquote>"Excelente servicio, mi camioneta dejó de vibrar por completo en carretera. Muy recomendados."</blockquote>
+            <figcaption>— Jesenia Corte</figcaption>
           </figure>
           <figure class="testimonio">
-            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
-            <blockquote>Atención rápida y precios justos. Te explican bien qué le pasa al carro.</blockquote>
+            <div class="stars" aria-label="Calificación: 5 de 5 estrellas">★★★★★</div>
+            <blockquote>"Atención rápida y precios bastante razonables. Te muestran la pieza gastada antes de cambiarla."</blockquote>
             <figcaption>— Miguel Castellanos</figcaption>
           </figure>
           <figure class="testimonio">
-            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
-            <blockquote>Llevé mi auto por un ruido en la suspensión y quedó como nuevo. Gente honesta.</blockquote>
+            <div class="stars" aria-label="Calificación: 5 de 5 estrellas">★★★★★</div>
+            <blockquote>"Llevé mi coche por un golpeteo en la suspensión delantera y quedó suave de nuevo. Personal honesto."</blockquote>
             <figcaption>— Daniel Ramírez</figcaption>
           </figure>
         </div>
       </div>
     </section>
 
-    <!-- Contacto -->
     <section id="contacto" class="section section-alt">
       <div class="container contacto">
         <div class="contacto-info">
-          <span class="eyebrow">Contáctanos</span>
-          <h2>Agenda tu servicio hoy</h2>
-          <p>Escríbenos o visítanos. Con gusto revisamos tu vehículo y te damos un presupuesto.</p>
+          <span class="eyebrow">Contacto</span>
+          <h2>Agenda tu cita hoy</h2>
+          <p>Llámanos o llena el formulario para obtener una cotización estimada.</p>
 
           <ul class="info-list">
             <li>
-              <span class="info-ic" aria-hidden="true">📍</span>
+              <span class="info-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
               <span>Calzada de los Enebros 1561, La Martinica, Zapopan, Jalisco</span>
             </li>
             <li>
-              <span class="info-ic" aria-hidden="true">📞</span>
+              <span class="info-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
               <a href="tel:+523323501623">33 2350 1623</a>
             </li>
             <li>
-              <span class="info-ic" aria-hidden="true">📧</span>
+              <span class="info-ic" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
               <a href="mailto:taller.suspensiones@gmail.com">taller.suspensiones@gmail.com</a>
             </li>
           </ul>
 
           <div class="mapa">
             <iframe
-              title="Ubicación del taller en Google Maps"
+              title="Ubicación del taller Rigo Suarez en Zapopan en Google Maps"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.156583301721!2d-103.37275142410994!3d20.744446597481783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428afe55f0c6f99%3A0x3b9b63cdf7405930!2sCalz%20de%20los%20Enebros%201561%2C%20La%20Martinica%2C%2045185%20Zapopan%2C%20Jal.!5e0!3m2!1ses-419!2smx!4v1749954894417!5m2!1ses-419!2smx"
-              width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
         </div>
 
         <div class="contacto-form-wrap">
-          <form id="contactForm" class="contacto-form" aria-label="Formulario de contacto" novalidate>
-            <h3>Cuéntanos qué necesitas</h3>
+          <form id="contactForm" class="contacto-form" aria-label="Formulario de contacto y cotizaciones" novalidate>
+            <h3>Mensaje directo</h3>
+            
             <div class="field">
-              <label for="nombre">Nombre</label>
-              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ej. Carlos Mendoza" required />
             </div>
+            
             <div class="field">
-              <label for="correo">Correo</label>
-              <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required />
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required />
             </div>
+            
             <div class="field">
-              <label for="vehiculo">Vehículo (opcional)</label>
+              <label for="vehiculo">Vehículo (Año, Marca, Modelo)</label>
               <input type="text" id="vehiculo" name="vehiculo" placeholder="Ej. Nissan Sentra 2018" />
             </div>
+            
             <div class="field">
-              <label for="mensaje">Mensaje</label>
-              <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Qué le pasa a tu auto?" required></textarea>
+              <label for="mensaje">¿Qué síntoma presenta tu auto?</label>
+              <textarea id="mensaje" name="mensaje" rows="4" placeholder="Ej. Hace un rechinido al pasar topes o vibra a más de 80 km/h." required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary btn-block">Enviar mensaje</button>
+            
+            <button type="submit" class="btn btn-primary btn-block">Enviar cotización</button>
             <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
           </form>
         </div>
@@ -251,11 +277,11 @@
           <small>Taller de Suspensiones</small>
         </span>
       </div>
-      <p class="footer-copy">&copy; 2025 Taller de Suspensiones Rigo Suarez. Todos los derechos reservados.</p>
+      <p class="footer-copy">&copy; 2026 Taller de Suspensiones Rigo Suarez. Todos los derechos reservados.</p>
     </div>
   </footer>
 
-  <a href="https://wa.me/523323501623" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <a href="https://wa.me/523323501623" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar al taller por WhatsApp">
     <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
       <path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 0 1 8.413 3.488 11.82 11.82 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.512 5.26l-.999 3.648 3.736-.979zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
     </svg>
